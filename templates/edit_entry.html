@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h2>Edit Entry</h2>
+    <form method="post">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" value="{{ entry.date }}" required>
+        <br>
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required>{{ entry.content }}</textarea>
+        <br>
+        <input type="submit" value="Update Entry" class="btn btn-secondary">
+    </form>
+{% endblock %}

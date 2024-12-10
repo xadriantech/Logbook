@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+    <h2>Add New Entry</h2>
+    <form method="post">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" required></textarea>
+        <br>
+        <input type="submit" value="Add Entry" class="btn btn-primary">
+    </form>
+{% endblock %}

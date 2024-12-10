@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #ddd;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+}
+
+a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"], .btn {
+    background-color: #555;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    outline: none;  /* Remove outline when focused */
+    box-shadow: none;  /* Remove shadow on focus */
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #444;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;  /* Center-align text in table cells */
+}
+
+th {
+    background-color: #555;
+}
+
+.date-column {
+    width: 150px;  /* Atur lebar kolom Date, sesuaikan dengan kebutuhan */
+    text-align: center;
+}
+
+/* Aturan untuk kolom Content */
+td {
+    text-align: left;  /* Default pengaturan teks untuk kolom */
+}
+
+.content-column {
+    text-align: left;  /* Rata kiri isi kolom Content */
+}
+
+h1 {
+    text-align: center;  /* Rata tengah untuk tulisan Logbook */
+    margin-bottom: 20px;  /* Memberikan jarak di bawah tulisan */
+}
+
